@@ -20,7 +20,7 @@
         tools:text="5000+400"/>
 
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/result_view"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@color/pink_background_output"
@@ -32,115 +32,141 @@
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:orientation="vertical"
         android:layout_height="0dp"
         android:background="@color/pink_button_background"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/result">
+        app:layout_constraintTop_toBottomOf="@+id/result_view">
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/btn_ac"
                 style="@style/ActionButton"
-                android:text="AC"/>
+                android:text="AC" />
+
             <TextView
                 android:id="@+id/btn_open_brackets"
                 style="@style/ActionButton"
-                android:text="("/>
+                android:text="(" />
+
             <TextView
                 android:id="@+id/btn_close_brackets"
                 style="@style/ActionButton"
-                android:text=")"/>
+                android:text=")" />
+
             <TextView
                 android:id="@+id/btn_divide"
                 style="@style/ActionButton"
-                android:text="/"/>
+                android:text="/" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/btn_one"
                 style="@style/ActionButton"
-                android:text="1"/>
+                android:text="1" />
+
             <TextView
                 android:id="@+id/btn_two"
                 style="@style/ActionButton"
-                android:text="2"/>
+                android:text="2" />
+
             <TextView
                 android:id="@+id/btn_three"
                 style="@style/ActionButton"
-                android:text="3"/>
+                android:text="3" />
+
             <TextView
                 android:id="@+id/btn_multiply"
                 style="@style/ActionButton"
-                android:text="x"/>
+                android:text="*" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/btn_four"
                 style="@style/ActionButton"
-                android:text="4"/>
+                android:text="4" />
+
             <TextView
                 android:id="@+id/btn_five"
                 style="@style/ActionButton"
-                android:text="5"/>
+                android:text="5" />
+
             <TextView
                 android:id="@+id/btn_six"
                 style="@style/ActionButton"
-                android:text="6"/>
+                android:text="6" />
+
             <TextView
                 android:id="@+id/btn_plus"
                 style="@style/ActionButton"
-                android:text="+"/>
+                android:text="+" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/btn_seven"
                 style="@style/ActionButton"
-                android:text="7"/>
+                android:text="7" />
+
             <TextView
                 android:id="@+id/btn_eight"
                 style="@style/ActionButton"
-                android:text="8"/>
+                android:text="8" />
+
             <TextView
                 android:id="@+id/btn_nine"
                 style="@style/ActionButton"
-                android:text="9"/>
+                android:text="9" />
+
             <TextView
+                android:id="@+id/btn_minus"
                 style="@style/ActionButton"
-                android:text="-"/>
+                android:text="-" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/btn_dot"
                 style="@style/ActionButton"
-                android:text="."/>
+                android:text="." />
+
             <TextView
                 android:id="@+id/btn_zero"
                 style="@style/ActionButton"
-                android:text="0"/>
+                android:text="0" />
+
             <TextView
-                android:id="@+id/btn_less"
+                android:id="@+id/btn_del"
                 style="@style/ActionButton"
-                android:text="<"/>
+                android:text="del" />
+
             <TextView
                 android:id="@+id/btn_equals"
                 style="@style/ActionButton"
-                android:text="="/>
+                android:text="=" />
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
